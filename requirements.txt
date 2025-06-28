@@ -1,0 +1,7 @@
+pytest
+python-dotenv
+fastapi[standard]
+openmeteo-requests
+requests-cache
+retry-requests
+locust
