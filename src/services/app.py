@@ -7,8 +7,9 @@ import os
 from dotenv import load_dotenv
 import statistics
 import datetime
+from pathlib import Path
 
-load_dotenv()
+load_dotenv(dotenv_path=Path(".env"))
 api_key_weather = os.getenv("weather_api_key")
 api_key_ninja = os.getenv("ninja_api_key")
 
