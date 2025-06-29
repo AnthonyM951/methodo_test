@@ -89,4 +89,4 @@ Cela ouvrira une interface graphique sur [http://localhost:8089](http://localhos
 
 📎 Des captures d’écran ainsi qu’un rapport des tests réalisés sont disponibles dans `tests/load/`.
 
-![Graphique tests de charge](src/tests/load/total_requests_per_second_1750861248.191.png)
+![Graphique tests de charge](src/tests/load/image.png)
