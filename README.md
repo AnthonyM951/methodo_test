@@ -80,7 +80,7 @@ Les tests de charge sont basés sur **Locust** et se trouvent dans `tests/load/`
 Exécutez-les avec la commande suivante :
 
 ```bash
-locust -f locustfile.py --users 10 --spawn-rate 0.2 --host http://localhost:8000
+locust -f test_locust.py --users 10 --spawn-rate 0.2 --host http://localhost:8000
 ```
 
 Cela ouvrira une interface graphique sur [http://localhost:8089](http://localhost:8089).
